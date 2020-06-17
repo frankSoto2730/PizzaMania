@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Sriracha', cursive;
 }
 
 body {
@@ -49,7 +50,7 @@ h1{
 
 #encabezado{
     padding-top: 10%;
-    margin-left: 72%;
+    margin-left: 70%;
 }
 
 footer{
@@ -59,9 +60,9 @@ footer{
 }
 
 p{
-    font-size: 40px;
-    margin-top: 4%;
-    margin-left: 60%;
+    font-size: 35px;
+    margin-top: 3%;
+    margin-left: 55%;
     color: white;
     font-weight: bolder;
     text-align: center;

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Sriracha', cursive;
 }
 
 body {
@@ -75,6 +76,6 @@ p{
    float: right;
    margin-right: 15%;
    margin-top: 10%;
-   font-size: 45px;
+   font-size: 40px;
    font-weight: bold;
 }
