@@ -1,0 +1,296 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    background-color: rgba(173, 28, 28, 0.8);
+    font-size: 110%;
+    border-radius: 10%;
+}
+
+
+body{
+    background-color: rgb(9, 15, 25);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+nav
+{   
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin: 0 0;
+    
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+section.Principal{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 1px;
+background: url("../img/home.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.simpleSpecs{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/specs.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.colores{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/colores.png");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.Bateria{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/Redmi-K30-Pro.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.especificaciones{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/POCO-F2-Pro-gris.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+
+
+h2{ 
+margin-top: 850px;
+margin-left: 750px;
+    font-size: 50px;
+    width: 30%;
+    padding: 20px;
+    color: rgb(212, 10, 10);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4{ 
+    margin-top: 750px;
+    margin-left: 65%;
+        font-size: 20px;
+        width: 30%;
+        padding: 20px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    h3{ 
+        margin-top: 600px;
+        margin-left: 32%;
+            font-size: 20px;
+            width: 35%;
+            padding: 20px;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    
+#ultimoTitulo
+{
+    margin-top: 100px;
+    margin-left: 16%;
+    font-size: 30px;
+    width: 35%;
+    height: 300px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Imagen{
+    width: 100%;
+    height:550px;
+    float: left;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+a.arriba
+{
+    color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    bottom: 20px;
+    right: 3%;
+    font-size: 50px;
+}
+
+a.arriba:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#parrafoIzq
+{
+    font-size: 30px;
+    color: white;
+    float: left;
+    width: 35%;
+    margin-left: 6%;
+}
+
+#parrafoDer
+{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 3%;
+    
+}
+
+img.Img{
+    width: 50%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    float: left;
+    margin: 10px;
+
+}
+
+
+
+div.Texto p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+h1.Titulo{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+div.Texto{
+    width: 37%;
+    margin-top: 20px;
+    float: right;
+    margin-right: 7%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.redes
+{
+    display: flex;
+    position: fixed;
+    left: 90%;
+    top: 0px;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.redes a
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    opacity: .6;
+}
+
+.redes a.fb { background: #3b5998}
+.redes a.tw { background: #1da1f2}
+.redes a.ig { background: #E773C2}
+
+.redes a.fb:hover { opacity: 1; }
+.redes a.tw:hover {opacity: 1;}
+.redes a.ig:hover { opacity: 1;}
+
+div.izquierdo{
+    float: left;
+    width: 50%;
+}
+
+#pie_pagina{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+img.info{
+    border-radius: 100%;
+    z-index: auto;
+    opacity: 1;
+}
+
+#textoSpecs
+{
+    margin-top: 80px;
+    margin-left: 33%;
+        font-size: 20px;
+        width: 30%;
+        padding: 20px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.7);
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(26, 155, 26);
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
