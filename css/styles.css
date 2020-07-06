@@ -42,6 +42,23 @@ nav a{
     
 }
 
+img{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    width: 147px;
+    height: 122px;
+
+}
+
+#ad2{
+    padding-top: 10%;
+}
+
 section.Principal{
     width: 100%; 
     margin: 0%;
