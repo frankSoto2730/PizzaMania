@@ -27,7 +27,7 @@ nav
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 29%;
     margin: 0 0;
     
     background: rgba(0, 0, 0, 0.8);
@@ -52,41 +52,41 @@ height: 100%;
 background-attachment: fixed;
 }
 
-section.simpleSpecs{
+section.queSon{
     width: 100%; 
     margin: 0%;
     padding-top: 10px;
-background: url("../img/specs.jpg");
+background: url("../img/queSon.jpg");
 background-size: cover;
 height: 100%;
 background-attachment: fixed;
 }
 
-section.colores{
+section.uso{
     width: 100%; 
     margin: 0%;
     padding-top: 10px;
-background: url("../img/colores.png");
+background: url("../img/uso.jpg");
 background-size: cover;
 height: 100%;
 background-attachment: fixed;
 }
 
-section.Bateria{
+section.invertir{
     width: 100%; 
     margin: 0%;
     padding-top: 10px;
-background: url("../img/Redmi-K30-Pro.jpg");
+background: url("../img/seguridad-de-criptomoneda.jpg");
 background-size: cover;
 height: 100%;
 background-attachment: fixed;
 }
 
-section.especificaciones{
+section.minar{
     width: 100%; 
     margin: 0%;
     padding-top: 10px;
-background: url("../img/POCO-F2-Pro-gris.jpg");
+background: url("../img/final.jpg");
 background-size: cover;
 height: 100%;
 background-attachment: fixed;
@@ -95,17 +95,19 @@ background-attachment: fixed;
 
 
 h2{ 
-margin-top: 850px;
-margin-left: 750px;
-    font-size: 50px;
-    width: 30%;
+margin-top: 280px;
+margin-left: 500px;
+    font-size: 80px;
+    width: 50%;
     padding: 20px;
-    color: rgb(212, 10, 10);
+    color: rgb(238, 215, 12);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(133, 124, 124, 0.7);
+    text-align: center;
 }
 
 h4{ 
-    margin-top: 750px;
+    margin-top: 480px;
     margin-left: 65%;
         font-size: 20px;
         width: 30%;
@@ -116,10 +118,10 @@ h4{
     }
 
     h3{ 
-        margin-top: 600px;
-        margin-left: 32%;
-            font-size: 20px;
-            width: 35%;
+        margin-top: 550px;
+        margin-left: 20%;
+            font-size: 30px;
+            width: 60%;
             padding: 20px;
             color: white;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -129,10 +131,10 @@ h4{
 #ultimoTitulo
 {
     margin-top: 100px;
-    margin-left: 16%;
+    margin-left: 45%;
     font-size: 30px;
     width: 35%;
-    height: 300px;
+    height: 160px;
     color: red;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -160,20 +162,13 @@ a.arriba:hover{
 
 #parrafoIzq
 {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
-    float: left;
-    width: 35%;
-    margin-left: 6%;
-}
+   
+    width: 75%;
+    margin-left: 12%;
+    background-color: rgba(0, 0, 0, 0.63);
 
-#parrafoDer
-{
-    font-size: 30px;
-    color: white;
-    float: right;
-    margin-right: 3%;
-    
 }
 
 img.Img{
@@ -236,7 +231,7 @@ html{
     padding: 8px;
     text-align: center;
 
-    border-radius: 5px;
+    border-radius: 100px;
 
     opacity: .6;
 }
@@ -269,12 +264,12 @@ img.info{
     opacity: 1;
 }
 
-#textoSpecs
+#textoqueSon
 {
-    margin-top: 80px;
-    margin-left: 33%;
-        font-size: 20px;
-        width: 30%;
+    margin-top: 200px;
+    margin-left: 15%;
+        font-size:50px;
+        width: 70%;
         padding: 20px;
         color: black;
         background-color: rgba(255, 255, 255, 0.7);
